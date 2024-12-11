@@ -1,0 +1,16 @@
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-openai>=0.0.2
+openai>=1.0.0
+python-dotenv>=0.21.0
+tiktoken>=0.5.0
+rouge-score>=0.1.2
+google-api-python-client>=2.0.0
+google-auth-oauthlib>=0.4.6
+youtube-transcript-api>=0.6.1
+notion-client>=2.0.0
+beautifulsoup4>=4.9.3
+cloudscraper>=1.2.71
+pytest>=7.0.0
+tqdm>=4.65.0
+isodate>=0.6.1
