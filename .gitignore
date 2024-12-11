@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 
 *.env
+*.json
+
 src/
 save/
 # C extensions
