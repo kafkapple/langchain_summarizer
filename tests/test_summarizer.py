@@ -20,7 +20,7 @@ def test_structured_summary():
     강한 AI는 인간처럼 자유로운 사고와 학습이 가능한 수준을 말한다.
     
     머신러닝은 AI의 한 분야로, 데이터로부터 패턴을 학습하여 새로운 데이터에 대한 예측을 수행한다.
-    딥러닝은 머신러닝의 한 종류로, 인간의 뉴런과 유사한 인공신경망을 이용하여 데이터를 학습한다.
+    딥러닝은 머신러닝의 한 종류로, 인간의 뉴런과 유사한 인공신경망을 이��하여 데이터를 학습한다.
     최근에는 GPT와 같은 거대언어모델이 등장하여 자연어 처리 분야에서 혁신적인 성과를 보이고 있다.
     """
     
@@ -29,9 +29,9 @@ def test_structured_summary():
     
     # LLM 모델 초기화
     llm = ChatOpenAI(
-        model_name="gpt-3.5-turbo",
+        model="gpt-3.5-turbo",\
         temperature=0.2,
-        openai_api_key=os.getenv("OPENAI_API_KEY")
+        api_key=os.getenv("OPENAI_API_KEY")
     )
     
     # 요약 파이프라인 설정

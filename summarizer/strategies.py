@@ -24,7 +24,7 @@ class SummarizationStrategy:
         print(f"최대 길이: {max_length if max_length else '제한 없음'}")
         
         self.llm = ChatOpenAI(
-            model_name=model_name,
+            model=model_name,
             temperature=0.2
         )
         self.schema = schema
